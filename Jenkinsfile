@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('build'){
       steps{
-        echo 'Testing jenkins from Git HUb'
+        echo 'code changed from git hub'
         sh 'date'
         sh 'pwd'
       }
